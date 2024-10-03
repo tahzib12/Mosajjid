@@ -33,7 +33,7 @@ const HeroSection = () => {
   return (
     <section className="bg-black w-full text-white pt-[200px] xs:pt-[100px] flex xs:flex-col-reverse xs:justify-center xs:items-center justify-between" id="hero">
       <div className="container mx-auto w-[60%] xs:w-full px-10 xs:px-5 xs:mx-0">
-        <h1 ref={typedRef} className="typed-js-element text-3xl font-bold ml-[20px] text-yellow-500 xs:ml-2 xs:text-[24px] sm:text-[26px] whitespace-nowrap w-[240px] h-[30px]"></h1>
+        <h1 ref={typedRef} className="typed-js-element text-3xl font-bold ml-[20px] text-yellow-500 xs:ml-2 xs:text-[24px] sm:text-[26px] whitespace-nowrap w-[240px] h-[38px]"></h1>
         <p className="text-6xl font-bold ml-[20px] xs:ml-2 xs:text-[26px] sm:text-[30px] " data-aos="fade-right">Connecting Web2 & Web3</p>
         <p className="mt-4 text-xl ml-[20px] xs:ml-2 xs:text-[16px] sm:text-[18px]" data-aos="fade-right">We Deliver Web2 & Web3 Services All Over The World. </p>
         <div className="mt-8 xs:mt-4 ml-[20px] xs:ml-0 sm:ml-1">
