@@ -31,9 +31,9 @@ const Navbar = () => {
             className={`sm:flex sm:gap-8 md:gap-8 ${isOpen ? "absolute top-[-10px] right-[-40px] bg-gray-800 xs:h-[550px] xs:w-[200px] bg-opacity-90 p-4 rounded-lg shadow-lg block z-10 " : "hidden sm:flex md:flex"}`}
             componentTag="div"
           >
-            <a href="#hero" className="text-white block p-[5px] hover:border-b-2 hover:border-yellow-500 font-bold text-[18px] xs:text-[15px] sm:text-[16px] xs:!pt-[15px] xs:w-[70px]">Home</a>
-            <a href="#service" className="text-white block p-[5px] hover:border-b-2 hover:border-yellow-500 font-bold text-[18px] xs:text-[15px] sm:text-[16px] xs:w-[70px]">Services</a>
-            <a href="#project" className="text-white block p-[5px] hover:border-b-2 hover:border-yellow-500 font-bold text-[18px] xs:text-[15px] xs:w-[70px] sm:text-[16px]">Projects</a>
+            <a href="#hero" className="text-white block p-[5px] hover:border-b-2 hover:border-yellow-500 font-bold text-[18px] xs:!pt-[15px] xs:w-[70px]">Home</a>
+            <a href="#service" className="text-white block p-[5px] hover:border-b-2 hover:border-yellow-500 font-bold text-[18px]  xs:w-[70px]">Services</a>
+            <a href="#project" className="text-white block p-[5px] hover:border-b-2 hover:border-yellow-500 font-bold text-[18px]  sm:text-[16px]">Projects</a>
             {/* <a href="#team" className="text-white block p-[5px] hover:border-b-2 hover:border-yellow-500 font-bold text-[18px]">Team</a> */}
             {/* <a href="#contact" className="text-white block p-[5px] hover:border-b-2 hover:border-yellow-500 font-bold text-[18px] xs:text-[15px] sm:text-[16px]">Contact</a> */}
           </Scrollspy>
