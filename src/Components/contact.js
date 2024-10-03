@@ -6,7 +6,7 @@ import mail from '../assets/email.png';
 function Contact() {
   return (
     <>
-      <div className='py-10 bg-black' id="contact" >
+      <div className='py-10 pb-20 bg-black' id="contact" >
         <h1 data-aos="fade-right" data-aos-duration="1000" className='text-3xl px-20 xs:px-8 pb-10 text-white font-bold xs:text-[26px] sm:text-[30px]'>
           Contact:
         </h1>
