@@ -10,7 +10,7 @@ function Contact() {
         <h1 data-aos="fade-right" data-aos-duration="1000" className='text-3xl px-20 xs:px-8 pb-10 text-white font-bold xs:text-[26px] sm:text-[30px]'>
           Contact:
         </h1>
-        <div className="flex justify-center items-center py-2 px-5 h-24" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div className="flex justify-center items-center py-2 px-5 h-24" >
           <a href="https://www.linkedin.com/in/mosajjid-khan-ab6632198/" className="p-2.5">
             <img src={linkedin} alt="linkedlogo" className="w-16 h-16 rounded-full border border-yellow-500 hover:bg-yellow-400  bg-white" />
           </a>
