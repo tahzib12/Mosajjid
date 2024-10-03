@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import profile from '../assets/tronaqua.png';
+import profile from '../assets/profileM.jpeg';
 import Typed from 'typed.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -42,7 +42,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="w-[40%] xs:w-full xs:text-center rounded-full xs:flex xs:justify-center xs:items-center xs:pb-5">
-        <img src={profile} alt="Hero" className="w-[300px] xs:w-[150px] xs:h-[150px] sm:w-[200px] sm:h-[200px] h-[300px] rounded-full" data-aos="zoom-in"/>
+        <img src={profile} alt="Hero" className="w-[300px] object-cover xs:w-[150px] xs:h-[150px] sm:w-[200px] sm:h-[200px] h-[300px] rounded-full" data-aos="zoom-in"/>
       </div>
     </section>
   );

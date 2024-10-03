@@ -14,7 +14,7 @@ function Contact() {
           <a href="https://www.linkedin.com/in/mosajjid-khan-ab6632198/" className="p-2.5">
             <img src={linkedin} alt="linkedlogo" className="w-16 h-16 rounded-full border border-yellow-500 hover:bg-yellow-400  bg-white" />
           </a>
-          <a href="https://github.com/tahzib12?tab=repositories" className="p-2.5">
+          <a href="https://github.com/khanmosajjid" className="p-2.5">
             <img src={git} alt="gitlogo" className="w-16 h-16  rounded-full border border-yellow-500 hover:bg-yellow-400  bg-white" />
           </a>
           <a href="mailto:mosajjid.khan@gmail.com" className="p-2.5">
