@@ -6,7 +6,7 @@ import dreamscreen from '../assets/P1.png'
 import coreweb from '../assets/team.png'
 import metavault from '../assets/METAVAULT.png'
 import cgate from '../assets/CGate.png'
-
+import cicc from '../assets/CICC.png'
 
 
 const ProjectsSection = () => {
@@ -38,6 +38,12 @@ stakeholders.`,
       link: "https://litho-2nd.vercel.app/",
       imageUrl: litho,
       category: "LITHO",
+    },
+    {
+      title: `Contributed to the built on the pillars of blockchain technology, tokenization, and regulatory compliance, CICC estateDAO envisions a decentralized ecosystem that empowers investors to seamlessly participate in the real estate market.`,
+      link: "https://ciccapp.vercel.app/",
+      imageUrl: cicc,
+      category: "CICC",
     },
    
   ];

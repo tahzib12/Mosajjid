@@ -8,6 +8,7 @@ import nodejs from '../assets/node.png'
 import tailwind from '../assets/Tailwind.svg'
 import blockchain from '../assets/blockchian.png'
 import sql from '../assets/sql.png'
+import dsa from '../assets/DSA.jpg'
 
 const skills = [
   {
@@ -25,6 +26,10 @@ const skills = [
   {
     name: 'MySQL',
     logo: sql ,
+  },
+  {
+    name: 'Data Structure',
+    logo: dsa ,
   },
   {
     name: 'HTML',
